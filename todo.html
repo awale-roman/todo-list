@@ -1,0 +1,18 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>Todo List</h1>
+    <input type="text" id="taskInput" name="text" placeholder="Add new task" />
+    <button id="addNewTask" onclick="saveTask()">Add task</button>
+
+    <ol id="displayTask"></ol>
+    <button id="clearCompleteBtn" onclick="clearCompletedTodos()">
+      Clear Completed
+    </button>
+    <script src="/todo.js"></script>
+  </body>
+</html>
